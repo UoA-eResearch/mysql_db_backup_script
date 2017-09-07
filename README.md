@@ -11,6 +11,11 @@ Quick script to backup a seafile mysql database as separate files, in time stamp
       * Dumps partitioned tables in a file per partition
     * prints of each command, with any error messages, which is dumped into a log file.
 
+
+
+
+
+
 ## Crontab
 Run from crontab, as the seafile user, about an hour before the backups run.
 ```
